@@ -1,0 +1,129 @@
+(footprint "SOT236"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.5 3 0)
+		(layer "F.SilkS")
+		(uuid "c9af3330-3cbd-4b32-bd6c-7a7c7b11938f")
+		(effects
+			(font
+				(size 0.787402 0.787402)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SOT236"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "1414ba62-fc91-43cc-bd7b-4b1dd4f34651")
+		(effects
+			(font
+				(size 0.787402 0.787402)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3d05302a-1c26-4f52-a1db-55b7783dbb54")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b175ec7f-08b3-4493-9be6-1e7984132de8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "366b2ae6-9f75-4788-8aff-def5e1b7f96c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -1.213854 2.020665)
+		(end -1.133232 2.020665)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "1bcb4036-fc6d-41e0-a4c8-cbab599660fb")
+	)
+	(pad "1" smd rect
+		(at -0.66 1.09)
+		(size 0.3 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "0d7fe2f8-18a5-4e6b-bf7c-762727f342df")
+	)
+	(pad "2" smd rect
+		(at 0 1.09)
+		(size 0.3 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "0c5b750f-6c20-4a7f-adb0-be60f0f114aa")
+	)
+	(pad "3" smd rect
+		(at 0.66 1.09)
+		(size 0.3 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "77e2981a-7ff1-4537-90a9-167d8b2c9a14")
+	)
+	(pad "4" smd rect
+		(at 0.66 -1.09)
+		(size 0.3 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "f53456a4-8812-4125-a9a6-557c3f071119")
+	)
+	(pad "5" smd rect
+		(at 0 -1.09)
+		(size 0.3 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "b3c53f01-e188-4284-8372-84a0c4c8a465")
+	)
+	(pad "6" smd rect
+		(at -0.66 -1.09)
+		(size 0.3 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "cab2e184-9546-4bc2-a8b6-0d8d39f59faa")
+	)
+	(model "${KIPRJMOD}/libraries/3dmodels/MBT3904DW1T1G.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -90)
+		)
+	)
+)

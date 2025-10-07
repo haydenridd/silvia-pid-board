@@ -1,0 +1,38 @@
+Reference,Value,Qty,DIGIKEY_PN,Notes
+C1,22nF 250VAC,1,399-CAN17C223KARACTUCT-ND,Board Component
+"C2,C3,C4",0.1uF,3,311-1140-1-ND,Board Component
+D1,BTA416X-800BTQ,1,1740-BTA416X-800BTQ-ND,Board Component
+D1,Heatsink,1,HS403-ND,Board Component
+F1,Fuse Holder,1,36-3521-ND,Board Component
+F1,Fuse,1,0225010.MXP-ND,Board Component
+FB1,FERRITE-0805NO,1,490-1053-1-ND,Board Component
+J1,LINE_SENSE_IN,1,A29938CT-ND,Board Component
+J2,LINE_IN,1,A29938CT-ND,Board Component
+J3,NEUTRAL_IN,1,A29938CT-ND,Board Component
+J4,HEATER_OUT,1,A29938CT-ND,Board Component
+J5,S2B-XH-A,1,455-S2B-XH-A-ND,Board Component
+J6,S3B-XH-A,1,455-S3B-XH-A-ND,Board Component
+J7,691137710002,1,732-10955-ND,Board Component
+R1,82KR 1W,1,13-RC2512JK-0782KLCT-ND,Board Component
+R2,150R 1W,1,13-SR2512JK-07150RLCT-ND,Board Component
+R3,51R 1W,1,13-AC2512JK-0751RLCT-ND,Board Component
+R4,390R 1/4W,1,311-390ERCT-ND,Board Component
+R5,100R 1/4W,1,311-270ERCT-ND,Board Component
+"R6,R8",100KR,2,311-100KARCT-ND,Board Component
+"R7,R9,R12,R13,R14",10KR,5,311-10KARCT-ND,Board Component
+R10,270R 1/4W,1,311-270ERCT-ND,Board Component
+R11,6.2KR 1/4W,1,311-6.2KERCT-ND,Board Component
+R15,430Ω  0.1%,1,YAG1896CT-ND,Board Component
+U1,FOD814S,1,FOD814S-ND,Board Component
+U2,IRM-05-5,1,1866-3027-ND,Board Component
+U3,MOC3062M,1,MOC3062M-ND,Board Component
+U4,RASPBERRY_PI_PICO,1,2648-SC0917-ND,Board Component
+U5,MBT3904DW1T1G,1,MBT3904DW1T1GOSCT-ND,Board Component
+U6,MAX31865AAP_,1,MAX31865AAP+-ND,Board Component
+~,https://www.auberins.com/index.php?main_page=product_info&products_id=211,1,~,Custom RTD sensor that fits in thermostat clip
+~,XHP-2,1,455-2266-ND,2 position connector for RTD sensor port
+~,XHP-3,1,455-2219-ND,3 position connector for UART port
+~,2-520263-2,4,A27821CT-ND,AMP connectors for connecting AC signals to board
+~,PPPC201LFBN-RC,2,S7053-ND,Female headers for Rpi Pico
+~,SXH-001T-P0.6N,5,455-4220-100-ND,Crimp connectors
+~,INL-3AW30,1,1830-1006-ND,White LED for temperature lamp indicator replacement

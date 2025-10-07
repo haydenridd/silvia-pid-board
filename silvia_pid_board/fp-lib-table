@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "footprints")(type "KiCad")(uri "${KIPRJMOD}/libraries/footprints.pretty")(options "")(descr ""))
+  (lib (name "to220_with_heatsink")(type "KiCad")(uri "${KIPRJMOD}/libraries/footprints.pretty/to220_with_heatsink.pretty")(options "")(descr ""))
+)

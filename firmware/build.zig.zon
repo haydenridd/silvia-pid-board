@@ -1,0 +1,18 @@
+.{
+    .name = .silvia_pid_controller,
+    .fingerprint = 0xda367932810e26ae,
+    .version = "0.0.0",
+    .dependencies = .{
+        .microzig = .{
+            .url = "git+https://github.com/ZigEmbeddedGroup/microzig?ref=HEAD#06ccc5385126ce1ca488644a9833be8fa7e95754",
+            .hash = "microzig-0.15.0-D20YSVRtyQB5t-ZTO34CSu6F19tw9zJ9mrhYWp4XbIbj",
+        },
+    },
+
+    .paths = .{
+        "README.md",
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+}
