@@ -36,7 +36,7 @@ Outputs CSV data points to a UART port for logging.
 
 ### `TemperatureRegulation`
 
-Performs the PID control loop given regular temperature measurements from the RTD sensor.
+Performs the PID control loop given regular temperature measurements from the RTD sensor. Setpoint is changed according to whether the steam switch is active or not.
 
 ### `RtdMeasurement`
 
