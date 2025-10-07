@@ -48,6 +48,16 @@ Implements a rudimentary CLI for controlling firmware as it runs. Currently uses
 designed in a way to take a generic `std.Io.Reader` as its input
 source. A fun example of `comptime` usage to cut down on code repetition.
 
+### `HeaterIndicator`
+
+Controls the heater indicator LED using PWM. Currently it only has three states:
+- Solid on: temperature is far enough away from target such that the boiler is turned on 100%
+- Pulsing on: temperature is within a threshold to where PID is bringing temperature closer to target
+- Solid off: Temperature is within 2C of target
+
+Note that "solid on" still isn't at 100% duty cycle. I experimentally determined a nice value that seemed to match the brightness of the other lamps on the machine.
+
+
 ### `irq`
 
 A special module that isn't "given work" like other modules, because

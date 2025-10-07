@@ -14,7 +14,7 @@ ensuring their own safety, as well as the safe modification and operation of the
 ## Motivation
 
 Adding PID heater control to the Rancilio Silvia is a popular mod, however it usually involves adding a
-standalone PID controller like [this][https://www.auberins.com/index.php?main_page=product_info&products_id=36] to the
+standalone PID controller like [this](https://www.auberins.com/index.php?main_page=product_info&products_id=36) to the
 exterior of the machine. I've also seen a
 number of great write-ups on home-brew mods \(so to speak\) like [this](https://misssilviapi.wordpress.com/) and
 [this](https://int03.co.uk/blog/project-coffee-espiresso-machine/). However, many of the mods have
